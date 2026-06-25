@@ -28,12 +28,12 @@ let package = Package(
         .binaryTarget(
             name: "FAISS",
             url: "https://github.com/impel-intelligence/faiss-mobile/releases/download/v1.14.3/faiss.xcframework.zip",
-            checksum: "d102e5b46fe48cdd754870c16fe3a0f7220fba136b48c4febcdc30809fa8b7ec"
+            checksum: "1ac5b9dce231e257031a26fea2c02cc54e84de8e86727e2b93800414d2b06f55"
         ),
         .binaryTarget(
             name: "FAISS_C",
             url: "https://github.com/impel-intelligence/faiss-mobile/releases/download/v1.14.3/faiss_c.xcframework.zip",
-            checksum: "664e84f393929d5d0a10f164b3c2ea6b4636b604de68095e77f2fd08bdb32063"
+            checksum: "79beb58ad88baf603a7de9caf20cbb1ba68ad043d9c4c3e1f3003d7ec60d882e"
         ),
         .binaryTarget(
             name: "OpenMP",
